@@ -4,7 +4,7 @@ new window.Vlitejs("#player", {
   options: {
     controls: true,
     autoplay: false,
-    playPause: true,
+    playPause: false,
     progressBar: true,
     time: true,
     volume: true,
