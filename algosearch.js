@@ -1,20 +1,4 @@
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-theme-classic"
-/>
-<style>
 
-
-  :root {
-    --aa-icon-size: 80px;
-
-  }
-</style>
-<script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
-<script src="https://cdn.jsdelivr.net/npm/preact/dist/preact.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js"></script>
-
-<script>
   const { autocomplete, getAlgoliaResults } = window['@algolia/autocomplete-js'];
   const appId = "YYGOUXJ8KT";
   const apiKey = "90ac0df6acacc4203abb8fcc40c5d0f3";
@@ -470,4 +454,4 @@
       setIsOpen(true);
     }
   });
-</script>
+
