@@ -47,7 +47,7 @@
                   <div class="aa-ItemContent">
                     <div class="algolia-cloneables-image_div">
                       <a href="/aitools/${item.Slug}"><img
-                        src="${item['Cloneable Image']}"
+                        src="${item.CoverImage}"
                         alt="${item.Name}"
                         class="algolia-cloneable_image"
                       /></a>
